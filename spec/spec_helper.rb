@@ -5,6 +5,8 @@ require File.expand_path('../dummy/config/environment.rb',  __FILE__)
 
 require 'rspec/rails'
 require 'rake'
+require 'coveralls'
+Coveralls.wear!
 
 require 'database_cleaner'
 require 'ffaker'
