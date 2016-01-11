@@ -1,0 +1,13 @@
+<div class="alpha twelve columns" data-hook="admin_zone_form_fields">
+  <fieldset class="no-border-bottom">
+    <legend align="center"><%= Spree.t(:postcodes) %></legend>
+    <div class="field">
+      <%= zone_form.label :blacklist, Spree.t(:blacklist) %><br />
+      <%= zone_form.text_field :blacklist, class: 'fullwidth' %>
+    </div>
+    <div class="field">
+      <%= zone_form.label :whitelist, Spree.t(:whitelist) %><br />
+      <%= zone_form.text_field :whitelist, class: 'fullwidth' %>
+    </div>
+  </fieldset>
+</div>
