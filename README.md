@@ -1,4 +1,4 @@
-# Solidus UK Postcode Zones [![Build Status](https://travis-ci.org/stuartbates/solidus-uk-postcode-zones.svg?branch=master)]
+# Solidus UK Postcode Zones ![Build Status](https://travis-ci.org/stuartbates/solidus-uk-postcode-zones.svg?branch=master)
 
 Provides the ability to customise shipping zones using postcodes - you can either:
 
